@@ -1,0 +1,45 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§l§aShopkeeper MCPE",
+		"description": "§l§b©Datkiri001",
+		"uuid": "7e3f1d8a-5c92-4b67-9f14-2a8d6e3c7b51",
+		"version": [
+			1,
+			5,
+			0
+		],
+		"min_engine_version": [
+			1,
+			21,
+			0
+		]
+	},
+	"metadata": {
+		"authors": [
+			"Datkiri001"
+		],
+		"url": "https://youtube.com/@Datkiri001"
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "b4c8e271-9d53-4f0a-a62e-7c1d5b8f3e94",
+			"version": [
+				1,
+				5,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "d9a7f3c5-1e84-4b2f-8c67-5e2a9d1b6f30",
+			"version": [
+				1,
+				5,
+				0
+			]
+		}
+	]
+}

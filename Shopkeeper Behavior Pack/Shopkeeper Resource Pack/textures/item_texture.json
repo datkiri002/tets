@@ -1,0 +1,9 @@
+{
+	"resource_pack_name": "Shopkeeper MCPE",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"shopkeeper_tool": {
+			"textures": "textures/items/stick"
+		}
+	}
+}

@@ -1,0 +1,138 @@
+# ============ SHOPKEEPER PREFIX ============
+shopkeeper.prefix=§l§aदुकानदार§r |: 
+
+# ============ MESSAGES ============
+shopkeeper.tag.invalid=§cअमान्य टैग!
+item.shopkeeper:tool.name=औज़ार
+shopkeeper.tool.menu.title=टूल मेनू
+shopkeeper.tool.menu.spawn_egg=NPC स्पॉन एग
+shopkeeper.tool.menu.manager=शॉप प्रबंधक
+shopkeeper.item.added=§aवस्तु दुकान में जोड़ दी गई।
+shopkeeper.folder.shop.created=§aफ़ोल्डर दुकान टैग के साथ बनाई गई: §f%s
+shopkeeper.folder.created=§aफ़ोल्डर बन गया।
+shopkeeper.slot.empty=§cखाली स्लॉट।
+shopkeeper.trade.item.created=§aव्यापार वस्तु बन गई।
+shopkeeper.delete.noitems=§cहटाने के लिए कोई वस्तु नहीं।
+shopkeeper.deleted=§aहटा दिया गया: %s
+shopkeeper.item.invalid=§cअमान्य वस्तु।
+shopkeeper.inventory.full=§cइन्वेंटरी भरी हुई है।
+shopkeeper.craft.missing.ingredients=§cपर्याप्त सामग्री नहीं!
+shopkeeper.craft.full.storage=§aइन्वेंटरी भरी है, वस्तु भंडारण में भेज दी गई।
+shopkeeper.craft.success=§aसफल!
+shopkeeper.craft.failure=§cविफल!
+shopkeeper.craft.all.failed=§cसभी क्राफ्ट विफल रहे।
+shopkeeper.craft.success.multiple=§aसफल §f%s§a बार
+shopkeeper.inventory.no.space=§cइन्वेंटरी में पर्याप्त जगह नहीं!
+shopkeeper.craft.amount.invalid=§cअमान्य मात्रा (1-%s)
+shopkeeper.ingredient.none=§cहटाने के लिए कोई सामग्री नहीं।
+shopkeeper.ingredient.deleted=§aसामग्री हटा दी गई।
+shopkeeper.sellitem.changed=§aबिक्री वस्तु बदल दी गई।
+shopkeeper.folder.properties.updated=§aगुण अपडेट कर दिए गए।
+shopkeeper.sellitem.missing=§cबिक्री वस्तु मौजूद नहीं है।
+shopkeeper.value.invalid=§cअमान्य मूल्य!
+shopkeeper.success.rate.set=§aसफलता दर निर्धारित की गई: §e%s%%
+shopkeeper.item.error=§cत्रुटिपूर्ण वस्तु
+shopkeeper.item.notfound=§7वस्तु नहीं मिली
+
+# ============ UI TITLES & LABELS ============
+shopkeeper.setup.title=§aShopkeeper सेटअप
+shopkeeper.setup.type.label=§aदुकान का प्रकार चुनें
+shopkeeper.setup.tag.label=§aदुकान के लिए टैग दर्ज करें
+shopkeeper.setup.npcname.label=§aNPC के लिए प्रदर्शन नाम दर्ज करें
+
+shopkeeper.folder.create.title=§6नया फ़ोल्डर बनाएँ
+shopkeeper.folder.create.name.label=§aप्रदर्शन नाम
+shopkeeper.folder.create.subname.label=§aउप-पाठ (\\n नई पंक्ति के लिए)
+shopkeeper.folder.create.texture.label=§aबनावट (पथ)
+shopkeeper.folder.create.glint.label=§aचमक प्रभाव
+
+shopkeeper.delete.title=§cवस्तु हटाएँ
+shopkeeper.delete.click=§cहटाने के लिए क्लिक करें
+
+shopkeeper.back=§aवापस
+shopkeeper.back.hint=§l§6|§r§e वापस जाने के लिए क्लिक करें
+
+shopkeeper.create.folder=§6फ़ोल्डर
+shopkeeper.create.folder.hint=§l§6|§r§7 नया फ़ोल्डर बनाएँ
+shopkeeper.create.item=§bवस्तु
+shopkeeper.create.item.hint=§l§6|§r§7 नया व्यापार स्लॉट जोड़ें
+shopkeeper.delete=§cहटाएँ
+shopkeeper.delete.hint=§l§6|§r§7 हटाने के लिए वस्तु चुनें
+shopkeeper.properties=§eगुण
+shopkeeper.properties.hint=§l§6|§r§7 गुण संपादित करने के लिए क्लिक करें
+
+shopkeeper.craft=§aक्राफ्ट
+shopkeeper.craft.hint=§aसफलता दर: %s%%\n§l§6|§r§e एक बार क्राफ्ट करने के लिए क्लिक करें
+shopkeeper.craft.multiple=§aएकाधिक क्राफ्ट
+shopkeeper.craft.multiple.hint=§aसफलता दर: %s%%\n§l§6|§r§e एकाधिक बार क्राफ्ट करने के लिए क्लिक करें
+shopkeeper.craft.require=§l§6•§r§e आवश्यक: §l§6
+shopkeeper.craft.need=§l§6|§r§i चाहिए §e
+shopkeeper.craft.enough=§a पर्याप्त
+shopkeeper.craft.notenough=§c अपर्याप्त
+shopkeeper.craft.multiple.title=§aएकाधिक क्राफ्ट
+shopkeeper.craft.amount.input.label=मात्रा दर्ज करें (अधिकतम: %s)
+
+shopkeeper.settings=§cसेटिंग्स
+shopkeeper.settings.hint=§l§6|§r§e सेटिंग्स खोलने के लिए क्लिक करें
+shopkeeper.settings.title=§aसेटिंग्स
+shopkeeper.settings.successrate.label=सफलता दर
+
+shopkeeper.sellitem.change=§6बिक्री वस्तु बदलें
+shopkeeper.sellitem.change.hint=§l§6|§r§e दूसरी वस्तु चुनने के लिए क्लिक करें
+
+shopkeeper.ingredient.remove=§cसामग्री हटाएँ
+shopkeeper.ingredient.remove.hint=§l§6|§r§e सामग्री हटाने के लिए क्लिक करें
+shopkeeper.ingredient.select.title=§cहटाने के लिए सामग्री चुनें
+shopkeeper.ingredient.change.hint=§l§6|§r§c इस सामग्री को बदलने के लिए क्लिक करें
+shopkeeper.ingredient.set.hint=§l§6|§r§c सामग्री निर्धारित करने के लिए क्लिक करें
+
+shopkeeper.empty=खाली
+shopkeeper.preview=झलक
+
+shopkeeper.storage.title=भंडारण - पृष्ठ %s
+shopkeeper.page.previous=§eपिछला पृष्ठ
+shopkeeper.page.next=§eअगला पृष्ठ
+shopkeeper.search=§bखोजें
+shopkeeper.search.hint=§7कीवर्ड दर्ज करने के लिए क्लिक करें
+shopkeeper.search.key=§7कुंजी: %s
+shopkeeper.search.title=खोज
+shopkeeper.search.input.label=कीवर्ड दर्ज करें
+
+shopkeeper.inventory.select.title=इन्वेंटरी से वस्तु चुनें
+
+shopkeeper.folder.properties.title=§6फ़ोल्डर गुण
+shopkeeper.folder.properties.name.label=§aप्रदर्शन नाम
+shopkeeper.folder.properties.subname.label=§aउप-पाठ (\\n नई पंक्ति के लिए)
+shopkeeper.folder.properties.texture.label=§aबनावट (पथ)
+shopkeeper.folder.properties.glint.label=§aचमक सक्षम करें
+
+# ============ SLOT HINTS ============
+shopkeeper.slot.hint=वस्तु/फ़ोल्डर रखने के लिए क्लिक करें
+shopkeeper.tool.import.ready=व्यापार रेसिपी कॉपी हो गई। अब उस दुकान के NPC पर क्लिक करें जहाँ इसे जोड़ना है।
+shopkeeper.tool.import.apply=व्यापार जोड़ें
+shopkeeper.tool.import.cancel=आयात रद्द करें
+shopkeeper.tool.import.cancelled=आयात रद्द कर दिया गया।
+shopkeeper.tool.menu.add_chest=चेस्ट से आइटम जोड़ें
+shopkeeper.tool.menu.cancel_hint=कार्रवाई रद्द करने के लिए यहाँ दबाएँ
+shopkeeper.tool.import.prompt=टूल से चेस्ट, बैरल या शल्कर बॉक्स पर क्लिक करें, फिर दुकान NPC पर क्लिक करें। रद्द करने के लिए यह मेनू खोलकर यही बटन फिर चुनें।
+
+shopkeeper.decolayout.kind=Decoration layouts
+shopkeeper.decolayout.page=Page decoration layout
+shopkeeper.decolayout.unassign=Unassign layout
+shopkeeper.decolayout.slot=Slot (1-45)
+shopkeeper.decolayout.apply.title=Apply decoration layout
+shopkeeper.decolayout.apply.confirm=This replaces content in %s occupied slot(s). Stored trade items will be returned to you. Continue?
+shopkeeper.decolayout.conflict=Decoration covers occupied slot(s); the content underneath is preserved.
+shopkeeper.decolayout.missing=This layout was deleted. Assign another layout.
+shopkeeper.decolayout.applied=Decoration layout updated.
+shopkeeper.decolayout.name=Decoration layout name
+shopkeeper.decolayout.rename=Rename layout
+shopkeeper.decolayout.save=Save layout
+shopkeeper.decolayout.add=Add decoration
+shopkeeper.decolayout.add.hint=Empty slot - click to add a decoration
+shopkeeper.decolayout.save.entry=Save decoration
+shopkeeper.decolayout.entry.hint=Lore lines: %s · Commands: %s
+shopkeeper.decolayout.glint.on=Enabled
+shopkeeper.decolayout.glint.off=Disabled
+shopkeeper.decolayout.lore.title=Decoration lore
+shopkeeper.decolayout.commands.title=Decoration commands

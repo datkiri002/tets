@@ -1,0 +1,138 @@
+# ============ SHOPKEEPER PREFIX ============
+shopkeeper.prefix=§l§aဆိုင်ရှင်§r |: 
+
+# ============ MESSAGES ============
+shopkeeper.tag.invalid=§cတဂ်မမှန်ကန်ပါ။
+item.shopkeeper:tool.name=ကိရိယာ
+shopkeeper.tool.menu.title=ကိရိယာ မီနူး
+shopkeeper.tool.menu.spawn_egg=NPC ပေါက်ဖွားဥ
+shopkeeper.tool.menu.manager=ဆိုင် စီမံခန့်ခွဲမှု
+shopkeeper.item.added=§aပစ္စည်းကိုဆိုင်သို့ထည့်ပြီးပါပြီ။
+shopkeeper.folder.shop.created=§aဖိုလ်ဒါဆိုင်ကိုတဂ်ဖြင့်ဖန်တီးပြီးပါပြီ: §f%s
+shopkeeper.folder.created=§aဖိုလ်ဒါဖန်တီးပြီးပါပြီ။
+shopkeeper.slot.empty=နေရာလွတ်
+shopkeeper.trade.item.created=§aကုန်သွယ်ပစ္စည်းဖန်တီးပြီးပါပြီ။
+shopkeeper.delete.noitems=§cဖျက်ရန်ပစ္စည်းမရှိပါ။
+shopkeeper.deleted=§aဖျက်ပြီးပါပြီ: %s
+shopkeeper.item.invalid=§cပစ္စည်းမမှန်ကန်ပါ။
+shopkeeper.inventory.full=§cကျောပိုးအိတ်ပြည့်နေပါပြီ။
+shopkeeper.craft.missing.ingredients=§cကုန်ကြမ်းမလုံလောက်ပါ။
+shopkeeper.craft.full.storage=§aကျောပိုးအိတ်ပြည့်နေသောကြောင့်ပစ္စည်းကိုသိုလှောင်ခန်းသို့ပို့ပြီးပါပြီ။
+shopkeeper.craft.success=§aအောင်မြင်သည်။
+shopkeeper.craft.failure=§cမအောင်မြင်ပါ။
+shopkeeper.craft.all.failed=§cအားလုံးမအောင်မြင်ပါ။
+shopkeeper.craft.success.multiple=§aအောင်မြင်သည် §f%s§a ကြိမ်
+shopkeeper.inventory.no.space=§cကျောပိုးအိတ်ထဲတွင်နေရာမလုံလောက်ပါ။
+shopkeeper.craft.amount.invalid=§cပမာဏမမှန်ကန်ပါ (1-%s)
+shopkeeper.ingredient.none=§cဖယ်ရှားရန်ကုန်ကြမ်းမရှိပါ။
+shopkeeper.ingredient.deleted=§aကုန်ကြမ်းဖျက်ပြီးပါပြီ။
+shopkeeper.sellitem.changed=§aရောင်းမည့်ပစ္စည်းပြောင်းလဲပြီးပါပြီ။
+shopkeeper.folder.properties.updated=§aဂုဏ်သတ္တိများကို update လုပ်ပြီးပါပြီ။
+shopkeeper.sellitem.missing=§cရောင်းမည့်ပစ္စည်းမရှိပါ။
+shopkeeper.value.invalid=§cတန်ဖိုးမမှန်ကန်ပါ။
+shopkeeper.success.rate.set=§aအောင်မြင်နှုန်းကိုသတ်မှတ်ပြီးပါပြီ: §e%s%%
+shopkeeper.item.error=§cပစ္စည်းချို့ယွင်းနေသည်
+shopkeeper.item.notfound=§7ပစ္စည်းရှာမတွေ့ပါ
+
+# ============ UI TITLES & LABELS ============
+shopkeeper.setup.title=§aShopkeeper သတ်မှတ်ခြင်း
+shopkeeper.setup.type.label=§aဆိုင်အမျိုးအစားရွေးချယ်ပါ
+shopkeeper.setup.tag.label=§aဆိုင်၏တဂ်ကိုရိုက်ထည့်ပါ
+shopkeeper.setup.npcname.label=§aNPC ၏အမည်ပြောင်ကိုရိုက်ထည့်ပါ
+
+shopkeeper.folder.create.title=§6ဖိုလ်ဒါအသစ်ဖန်တီးရန်
+shopkeeper.folder.create.name.label=§a အမည်ပြောင်
+shopkeeper.folder.create.subname.label=§aစာတန်းခွဲ (\\n လိုင်းသစ်အတွက်)
+shopkeeper.folder.create.texture.label=§a texture (လမ်းကြောင်း)
+shopkeeper.folder.create.glint.label=§a ရောင်ပြန်ဟပ်မှုအကျိုးသက်ရောက်မှု
+
+shopkeeper.delete.title=§cပစ္စည်းဖျက်ရန်
+shopkeeper.delete.click=§cဖျက်ရန်နှိပ်ပါ
+
+shopkeeper.back=§a နောက်သို့
+shopkeeper.back.hint=§l§6|§r§e နောက်သို့ပြန်ရန်နှိပ်ပါ
+
+shopkeeper.create.folder=§6 ဖိုလ်ဒါ
+shopkeeper.create.folder.hint=§l§6|§r§7 ဖိုလ်ဒါအသစ်ဖန်တီးရန်
+shopkeeper.create.item=§b ပစ္စည်း
+shopkeeper.create.item.hint=§l§6|§r§7 ကုန်သွယ်မှုနေရာအသစ်ထည့်ရန်
+shopkeeper.delete=§c ဖျက်ရန်
+shopkeeper.delete.hint=§l§6|§r§7 ဖျက်ရန်ပစ္စည်းရွေးချယ်ပါ
+shopkeeper.properties=§e ဂုဏ်သတ္တိများ
+shopkeeper.properties.hint=§l§6|§r§7 ဂုဏ်သတ္တိများပြင်ဆင်ရန်နှိပ်ပါ
+
+shopkeeper.craft=§a ချက်လုပ်ရန်
+shopkeeper.craft.hint=§a အောင်မြင်နှုန်း: %s%%\n§l§6|§r§e ၁ ကြိမ်ချက်လုပ်ရန်နှိပ်ပါ
+shopkeeper.craft.multiple=§a အကြိမ်များစွာချက်လုပ်ရန်
+shopkeeper.craft.multiple.hint=§a အောင်မြင်နှုန်း: %s%%\n§l§6|§r§e အကြိမ်များစွာချက်လုပ်ရန်နှိပ်ပါ
+shopkeeper.craft.require=§l§6•§r§e လိုအပ်သည်: §l§6
+shopkeeper.craft.need=§l§6|§r§i လိုအပ်သည် §e
+shopkeeper.craft.enough=§a လုံလောက်သည်
+shopkeeper.craft.notenough=§c မလုံလောက်ပါ
+shopkeeper.craft.multiple.title=§a အကြိမ်များစွာချက်လုပ်ရန်
+shopkeeper.craft.amount.input.label=အရေအတွက်ရိုက်ထည့်ပါ (အများဆုံး: %s)
+
+shopkeeper.settings=§c ချိန်ညှိချက်များ
+shopkeeper.settings.hint=§l§6|§r§e ချိန်ညှိချက်များဖွင့်ရန်နှိပ်ပါ
+shopkeeper.settings.title=§a ချိန်ညှိချက်များ
+shopkeeper.settings.successrate.label= အောင်မြင်နှုန်း
+
+shopkeeper.sellitem.change=§6 ရောင်းမည့်ပစ္စည်းပြောင်းလဲရန်
+shopkeeper.sellitem.change.hint=§l§6|§r§e အခြားပစ္စည်းရွေးချယ်ရန်နှိပ်ပါ
+
+shopkeeper.ingredient.remove=§c ကုန်ကြမ်းဖယ်ရှားရန်
+shopkeeper.ingredient.remove.hint=§l§6|§r§e ကုန်ကြမ်းဖယ်ရှားရန်နှိပ်ပါ
+shopkeeper.ingredient.select.title=§c ဖျက်ရန်ကုန်ကြမ်းရွေးချယ်ပါ
+shopkeeper.ingredient.change.hint=§l§6|§r§c ဤကုန်ကြမ်းကိုပြောင်းလဲရန်နှိပ်ပါ
+shopkeeper.ingredient.set.hint=§l§6|§r§c ကုန်ကြမ်းသတ်မှတ်ရန်နှိပ်ပါ
+
+shopkeeper.empty= ဗလာ
+shopkeeper.preview= အစမ်းကြည့်ရန်
+
+shopkeeper.storage.title= သိုလှောင်ခန်း - စာမျက်နှာ %s
+shopkeeper.page.previous=§e ရှေ့စာမျက်နှာ
+shopkeeper.page.next=§e နောက်စာမျက်နှာ
+shopkeeper.search=§b ရှာဖွေရန်
+shopkeeper.search.hint=§7 သော့ချက်စာလုံးရိုက်ထည့်ရန်နှိပ်ပါ
+shopkeeper.search.key=§7 သော့ချက်: %s
+shopkeeper.search.title= ရှာဖွေရန်
+shopkeeper.search.input.label= သော့ချက်စာလုံးရိုက်ထည့်ပါ
+
+shopkeeper.inventory.select.title= ကျောပိုးအိတ်မှပစ္စည်းရွေးချယ်ပါ
+
+shopkeeper.folder.properties.title=§6 ဖိုလ်ဒါဂုဏ်သတ္တိများ
+shopkeeper.folder.properties.name.label=§a အမည်ပြောင်
+shopkeeper.folder.properties.subname.label=§a စာတန်းခွဲ (\\n လိုင်းသစ်အတွက်)
+shopkeeper.folder.properties.texture.label=§a texture (လမ်းကြောင်း)
+shopkeeper.folder.properties.glint.label=§a ရောင်ပြန်ဟပ်မှုကိုဖွင့်ရန်
+
+# ============ SLOT HINTS ============
+shopkeeper.slot.hint= ပစ္စည်း/ဖိုလ်ဒါချရန်နှိပ်ပါ
+shopkeeper.tool.import.ready=ကုန်သွယ်မှုပုံစံကို ကူးယူပြီးပါပြီ။ ထည့်လိုသောဆိုင် NPC ကို ယခုနှိပ်ပါ။
+shopkeeper.tool.import.apply=ကုန်သွယ်မှု ထည့်ရန်
+shopkeeper.tool.import.cancel=တင်သွင်းမှုကို ပယ်ဖျက်ရန်
+shopkeeper.tool.import.cancelled=တင်သွင်းမှုကို ပယ်ဖျက်ပြီးပါပြီ။
+shopkeeper.tool.menu.add_chest=သေတ္တာမှ ပစ္စည်းထည့်ရန်
+shopkeeper.tool.menu.cancel_hint=လုပ်ဆောင်ချက်ကို ပယ်ဖျက်ရန် ဤနေရာနှိပ်ပါ
+shopkeeper.tool.import.prompt=ကိရိယာကို သေတ္တာ၊ စည် သို့မဟုတ် shulker box တွင် သုံးပြီးနောက် ဆိုင် NPC ကိုနှိပ်ပါ။ ပယ်ဖျက်ရန် ဤမီနူးကိုဖွင့်ပြီး တူညီသောခလုတ်ကို ထပ်ရွေးပါ။
+
+shopkeeper.decolayout.kind=Decoration layouts
+shopkeeper.decolayout.page=Page decoration layout
+shopkeeper.decolayout.unassign=Unassign layout
+shopkeeper.decolayout.slot=Slot (1-45)
+shopkeeper.decolayout.apply.title=Apply decoration layout
+shopkeeper.decolayout.apply.confirm=This replaces content in %s occupied slot(s). Stored trade items will be returned to you. Continue?
+shopkeeper.decolayout.conflict=Decoration covers occupied slot(s); the content underneath is preserved.
+shopkeeper.decolayout.missing=This layout was deleted. Assign another layout.
+shopkeeper.decolayout.applied=Decoration layout updated.
+shopkeeper.decolayout.name=Decoration layout name
+shopkeeper.decolayout.rename=Rename layout
+shopkeeper.decolayout.save=Save layout
+shopkeeper.decolayout.add=Add decoration
+shopkeeper.decolayout.add.hint=Empty slot - click to add a decoration
+shopkeeper.decolayout.save.entry=Save decoration
+shopkeeper.decolayout.entry.hint=Lore lines: %s · Commands: %s
+shopkeeper.decolayout.glint.on=Enabled
+shopkeeper.decolayout.glint.off=Disabled
+shopkeeper.decolayout.lore.title=Decoration lore
+shopkeeper.decolayout.commands.title=Decoration commands

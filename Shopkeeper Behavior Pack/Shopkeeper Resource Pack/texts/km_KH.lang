@@ -1,0 +1,138 @@
+# ============ SHOPKEEPER PREFIX ============
+shopkeeper.prefix=§l§aអ្នកលក់§r |: 
+
+# ============ MESSAGES ============
+shopkeeper.tag.invalid=§cស្លាកមិនត្រឹមត្រូវ!
+item.shopkeeper:tool.name=ឧបករណ៍
+shopkeeper.tool.menu.title=ម៉ឺនុយឧបករណ៍
+shopkeeper.tool.menu.spawn_egg=ពងបង្កើត NPC
+shopkeeper.tool.menu.manager=គ្រប់គ្រងហាង
+shopkeeper.item.added=§aបានបន្ថែមវត្ថុទៅក្នុងហាង។
+shopkeeper.folder.shop.created=§aបានបង្កើតហាងថតដោយស្លាក: §f%s
+shopkeeper.folder.created=§aបានបង្កើតថត។
+shopkeeper.slot.empty=រន្ធទទេ
+shopkeeper.trade.item.created=§aបានបង្កើតវត្ថុជួញដូរ។
+shopkeeper.delete.noitems=§cគ្មានវត្ថុត្រូវលុបទេ។
+shopkeeper.deleted=§aបានលុប: %s
+shopkeeper.item.invalid=§cវត្ថុមិនត្រឹមត្រូវ។
+shopkeeper.inventory.full=§cស្តុកពេញ។
+shopkeeper.craft.missing.ingredients=§cវត្ថុធាតុដើមមិនគ្រប់គ្រាន់!
+shopkeeper.craft.full.storage=§aស្តុកពេញ វត្ថុត្រូវបានផ្ញើទៅកន្លែងផ្ទុក។
+shopkeeper.craft.success=§aជោគជ័យ!
+shopkeeper.craft.failure=§cបរាជ័យ!
+shopkeeper.craft.all.failed=§cការផលិតទាំងអស់បរាជ័យ។
+shopkeeper.craft.success.multiple=§aជោគជ័យ §f%s§a ដង
+shopkeeper.inventory.no.space=§cកន្លែងស្តុកមិនគ្រប់គ្រាន់!
+shopkeeper.craft.amount.invalid=§cចំនួនមិនត្រឹមត្រូវ (1-%s)
+shopkeeper.ingredient.none=§cគ្មានវត្ថុធាតុដើមត្រូវដកចេញទេ។
+shopkeeper.ingredient.deleted=§aបានលុបវត្ថុធាតុដើម។
+shopkeeper.sellitem.changed=§aបានផ្លាស់ប្តូរវត្ថុលក់។
+shopkeeper.folder.properties.updated=§aបានធ្វើបច្ចុប្បន្នភាពលក្ខណៈសម្បត្តិ។
+shopkeeper.sellitem.missing=§cវត្ថុលក់មិនមានទេ។
+shopkeeper.value.invalid=§cតម្លៃមិនត្រឹមត្រូវ!
+shopkeeper.success.rate.set=§aកំណត់អត្រាជោគជ័យជា: §e%s%%
+shopkeeper.item.error=§cវត្ថុមានបញ្ហា
+shopkeeper.item.notfound=§7រកមិនឃើញវត្ថុ
+
+# ============ UI TITLES & LABELS ============
+shopkeeper.setup.title=§aរៀបចំ Shopkeeper
+shopkeeper.setup.type.label=§aជ្រើសរើសប្រភេទហាង
+shopkeeper.setup.tag.label=§aបញ្ចូលស្លាកហាង
+shopkeeper.setup.npcname.label=§aបញ្ចូលឈ្មោះបង្ហាញរបស់ NPC
+
+shopkeeper.folder.create.title=§6បង្កើតថតថ្មី
+shopkeeper.folder.create.name.label=§aឈ្មោះបង្ហាញ
+shopkeeper.folder.create.subname.label=§aអត្ថបទរង (\\n សម្រាប់បន្ទាត់ថ្មី)
+shopkeeper.folder.create.texture.label=§aវាយនភាព (ផ្លូវ)
+shopkeeper.folder.create.glint.label=§aបែបផែនផ្លេក
+
+shopkeeper.delete.title=§cលុបវត្ថុ
+shopkeeper.delete.click=§cចុចដើម្បីលុប
+
+shopkeeper.back=§aត្រឡប់ក្រោយ
+shopkeeper.back.hint=§l§6|§r§e ចុចដើម្បីត្រឡប់
+
+shopkeeper.create.folder=§6ថត
+shopkeeper.create.folder.hint=§l§6|§r§7 បង្កើតថតថ្មី
+shopkeeper.create.item=§bវត្ថុ
+shopkeeper.create.item.hint=§l§6|§r§7 បន្ថែមរន្ធជួញដូរថ្មី
+shopkeeper.delete=§cលុប
+shopkeeper.delete.hint=§l§6|§r§7 ជ្រើសរើសវត្ថុដើម្បីលុប
+shopkeeper.properties=§eលក្ខណៈសម្បត្តិ
+shopkeeper.properties.hint=§l§6|§r§7 ចុចដើម្បីកែសម្រួលលក្ខណៈសម្បត្តិ
+
+shopkeeper.craft=§aផលិត
+shopkeeper.craft.hint=§aអត្រាជោគជ័យ: %s%%\n§l§6|§r§e ចុចដើម្បីផលិត 1 ដង
+shopkeeper.craft.multiple=§aផលិតច្រើនដង
+shopkeeper.craft.multiple.hint=§aអត្រាជោគជ័យ: %s%%\n§l§6|§r§e ចុចដើម្បីផលិតច្រើនដង
+shopkeeper.craft.require=§l§6•§r§e ត្រូវការ: §l§6
+shopkeeper.craft.need=§l§6|§r§i ត្រូវការ §e
+shopkeeper.craft.enough=§a គ្រប់គ្រាន់
+shopkeeper.craft.notenough=§c មិនគ្រប់គ្រាន់
+shopkeeper.craft.multiple.title=§aផលិតច្រើនដង
+shopkeeper.craft.amount.input.label=បញ្ចូលចំនួន (អតិបរមា: %s)
+
+shopkeeper.settings=§cការកំណត់
+shopkeeper.settings.hint=§l§6|§r§e ចុចដើម្បីបើកការកំណត់
+shopkeeper.settings.title=§aការកំណត់
+shopkeeper.settings.successrate.label=អត្រាជោគជ័យ
+
+shopkeeper.sellitem.change=§6ផ្លាស់ប្តូរវត្ថុលក់
+shopkeeper.sellitem.change.hint=§l§6|§r§e ចុចដើម្បីជ្រើសរើសវត្ថុផ្សេង
+
+shopkeeper.ingredient.remove=§cដកវត្ថុធាតុដើមចេញ
+shopkeeper.ingredient.remove.hint=§l§6|§r§e ចុចដើម្បីដកវត្ថុធាតុដើមចេញ
+shopkeeper.ingredient.select.title=§cជ្រើសរើសវត្ថុធាតុដើមដើម្បីលុប
+shopkeeper.ingredient.change.hint=§l§6|§r§c ចុចដើម្បីផ្លាស់ប្តូរវត្ថុធាតុដើមនេះ
+shopkeeper.ingredient.set.hint=§l§6|§r§c ចុចដើម្បីកំណត់វត្ថុធាតុដើម
+
+shopkeeper.empty=ទទេ
+shopkeeper.preview=មើលជាមុន
+
+shopkeeper.storage.title=កន្លែងផ្ទុក - ទំព័រ %s
+shopkeeper.page.previous=§eទំព័រមុន
+shopkeeper.page.next=§eទំព័របន្ទាប់
+shopkeeper.search=§bស្វែងរក
+shopkeeper.search.hint=§7ចុចដើម្បីបញ្ចូលពាក្យគន្លឹះ
+shopkeeper.search.key=§7ពាក្យគន្លឹះ: %s
+shopkeeper.search.title=ស្វែងរក
+shopkeeper.search.input.label=បញ្ចូលពាក្យគន្លឹះ
+
+shopkeeper.inventory.select.title=ជ្រើសរើសវត្ថុពីស្តុក
+
+shopkeeper.folder.properties.title=§6លក្ខណៈសម្បត្តិថត
+shopkeeper.folder.properties.name.label=§aឈ្មោះបង្ហាញ
+shopkeeper.folder.properties.subname.label=§aអត្ថបទរង (\\n សម្រាប់បន្ទាត់ថ្មី)
+shopkeeper.folder.properties.texture.label=§aវាយនភាព (ផ្លូវ)
+shopkeeper.folder.properties.glint.label=§aបើកបែបផែនផ្លេក
+
+# ============ SLOT HINTS ============
+shopkeeper.slot.hint=ចុចដើម្បីដាក់វត្ថុ/ថត
+shopkeeper.tool.import.ready=បានចម្លងរូបមន្តជួញដូរ។ ឥឡូវចុច NPC ហាងដែលអ្នកចង់បន្ថែមវា។
+shopkeeper.tool.import.apply=បន្ថែមការជួញដូរ
+shopkeeper.tool.import.cancel=បោះបង់ការនាំចូល
+shopkeeper.tool.import.cancelled=បានបោះបង់ការនាំចូល។
+shopkeeper.tool.menu.add_chest=បន្ថែមវត្ថុពីហិប
+shopkeeper.tool.menu.cancel_hint=ចុចទីនេះដើម្បីបោះបង់
+shopkeeper.tool.import.prompt=ប្រើឧបករណ៍លើហិប ធុង ឬប្រអប់ shulker បន្ទាប់មកចុច NPC ហាង។ ដើម្បីបោះបង់ សូមបើកម៉ឺនុយនេះ ហើយជ្រើសប៊ូតុងដដែលម្តងទៀត។
+
+shopkeeper.decolayout.kind=Decoration layouts
+shopkeeper.decolayout.page=Page decoration layout
+shopkeeper.decolayout.unassign=Unassign layout
+shopkeeper.decolayout.slot=Slot (1-45)
+shopkeeper.decolayout.apply.title=Apply decoration layout
+shopkeeper.decolayout.apply.confirm=This replaces content in %s occupied slot(s). Stored trade items will be returned to you. Continue?
+shopkeeper.decolayout.conflict=Decoration covers occupied slot(s); the content underneath is preserved.
+shopkeeper.decolayout.missing=This layout was deleted. Assign another layout.
+shopkeeper.decolayout.applied=Decoration layout updated.
+shopkeeper.decolayout.name=Decoration layout name
+shopkeeper.decolayout.rename=Rename layout
+shopkeeper.decolayout.save=Save layout
+shopkeeper.decolayout.add=Add decoration
+shopkeeper.decolayout.add.hint=Empty slot - click to add a decoration
+shopkeeper.decolayout.save.entry=Save decoration
+shopkeeper.decolayout.entry.hint=Lore lines: %s · Commands: %s
+shopkeeper.decolayout.glint.on=Enabled
+shopkeeper.decolayout.glint.off=Disabled
+shopkeeper.decolayout.lore.title=Decoration lore
+shopkeeper.decolayout.commands.title=Decoration commands
