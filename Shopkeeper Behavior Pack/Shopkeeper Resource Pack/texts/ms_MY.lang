@@ -1,0 +1,138 @@
+# ============ SHOPKEEPER PREFIX ============
+shopkeeper.prefix=§l§aPenjual§r |: 
+
+# ============ MESSAGES ============
+shopkeeper.tag.invalid=§cTag tidak sah!
+item.shopkeeper:tool.name=Alat
+shopkeeper.tool.menu.title=Menu Alat
+shopkeeper.tool.menu.spawn_egg=Telur Penjana NPC
+shopkeeper.tool.menu.manager=Pengurus Kedai
+shopkeeper.item.added=§aBarang ditambah ke kedai.
+shopkeeper.folder.shop.created=§aKedai folder dicipta dengan tag: §f%s
+shopkeeper.folder.created=§aFolder dicipta.
+shopkeeper.slot.empty=§cSlot kosong.
+shopkeeper.trade.item.created=§aItem dagangan dicipta.
+shopkeeper.delete.noitems=§cTiada item untuk dipadam.
+shopkeeper.deleted=§aDipadam: %s
+shopkeeper.item.invalid=§cItem tidak sah.
+shopkeeper.inventory.full=§cInventori penuh.
+shopkeeper.craft.missing.ingredients=§cBahan tidak mencukupi!
+shopkeeper.craft.full.storage=§aInventori penuh, item dihantar ke storan.
+shopkeeper.craft.success=§aBerjaya!
+shopkeeper.craft.failure=§cGagal!
+shopkeeper.craft.all.failed=§cSemua kraf gagal.
+shopkeeper.craft.success.multiple=§aBerjaya §f%s§a kali
+shopkeeper.inventory.no.space=§cRuang inventori tidak mencukupi!
+shopkeeper.craft.amount.invalid=§cJumlah tidak sah (1-%s)
+shopkeeper.ingredient.none=§cTiada bahan untuk dibuang.
+shopkeeper.ingredient.deleted=§aBahan dipadam.
+shopkeeper.sellitem.changed=§aItem jualan ditukar.
+shopkeeper.folder.properties.updated=§aProperties dikemas kini.
+shopkeeper.sellitem.missing=§cItem jualan tidak wujud.
+shopkeeper.value.invalid=§cNilai tidak sah!
+shopkeeper.success.rate.set=§aKadar kejayaan ditetapkan kepada: §e%s%%
+shopkeeper.item.error=§cItem ralat
+shopkeeper.item.notfound=§7Item tidak dijumpai
+
+# ============ UI TITLES & LABELS ============
+shopkeeper.setup.title=§aPersediaan Shopkeeper
+shopkeeper.setup.type.label=§aPilih jenis kedai
+shopkeeper.setup.tag.label=§aMasukkan tag kedai
+shopkeeper.setup.npcname.label=§aMasukkan nama paparan NPC
+
+shopkeeper.folder.create.title=§6Cipta Folder Baru
+shopkeeper.folder.create.name.label=§aNama paparan
+shopkeeper.folder.create.subname.label=§aTeks sub (\\n untuk baris baru)
+shopkeeper.folder.create.texture.label=§aTekstur (laluan)
+shopkeeper.folder.create.glint.label=§aKesan kilauan
+
+shopkeeper.delete.title=§cPadam Item
+shopkeeper.delete.click=§cKlik untuk padam
+
+shopkeeper.back=§aKembali
+shopkeeper.back.hint=§l§6|§r§e Klik untuk kembali
+
+shopkeeper.create.folder=§6Folder
+shopkeeper.create.folder.hint=§l§6|§r§7 Cipta folder baharu
+shopkeeper.create.item=§bItem
+shopkeeper.create.item.hint=§l§6|§r§7 Tambah slot dagangan baharu
+shopkeeper.delete=§cPadam
+shopkeeper.delete.hint=§l§6|§r§7 Pilih item untuk dipadam
+shopkeeper.properties=§eProperties
+shopkeeper.properties.hint=§l§6|§r§7 Klik untuk edit properties
+
+shopkeeper.craft=§aKraf
+shopkeeper.craft.hint=§aKadar kejayaan: %s%%\n§l§6|§r§e Klik untuk kraf sekali
+shopkeeper.craft.multiple=§aKraf Berganda
+shopkeeper.craft.multiple.hint=§aKadar kejayaan: %s%%\n§l§6|§r§e Klik untuk kraf berganda
+shopkeeper.craft.require=§l§6•§r§e Diperlukan: §l§6
+shopkeeper.craft.need=§l§6|§r§i Perlu §e
+shopkeeper.craft.enough=§a Cukup
+shopkeeper.craft.notenough=§c Tidak cukup
+shopkeeper.craft.multiple.title=§aKraf Berganda
+shopkeeper.craft.amount.input.label=Masukkan jumlah (maks: %s)
+
+shopkeeper.settings=§cTetapan
+shopkeeper.settings.hint=§l§6|§r§e Klik untuk buka tetapan
+shopkeeper.settings.title=§aTetapan
+shopkeeper.settings.successrate.label=Kadar kejayaan
+
+shopkeeper.sellitem.change=§6Tukar Item Jualan
+shopkeeper.sellitem.change.hint=§l§6|§r§e Klik untuk pilih item lain
+
+shopkeeper.ingredient.remove=§cBuang Bahan
+shopkeeper.ingredient.remove.hint=§l§6|§r§e Klik untuk buang bahan
+shopkeeper.ingredient.select.title=§cPilih bahan untuk dipadam
+shopkeeper.ingredient.change.hint=§l§6|§r§c Klik untuk tukar bahan ini
+shopkeeper.ingredient.set.hint=§l§6|§r§c Klik untuk tetapkan bahan
+
+shopkeeper.empty=Kosong
+shopkeeper.preview=Pratonton
+
+shopkeeper.storage.title=Storan - Halaman %s
+shopkeeper.page.previous=§eHalaman sebelumnya
+shopkeeper.page.next=§eHalaman seterusnya
+shopkeeper.search=§bCari
+shopkeeper.search.hint=§7Klik untuk masukkan kata kunci
+shopkeeper.search.key=§7Kata kunci: %s
+shopkeeper.search.title=Carian
+shopkeeper.search.input.label=Masukkan kata kunci
+
+shopkeeper.inventory.select.title=Pilih item dari inventori
+
+shopkeeper.folder.properties.title=§6Properties Folder
+shopkeeper.folder.properties.name.label=§aNama paparan
+shopkeeper.folder.properties.subname.label=§aTeks sub (\\n untuk baris baru)
+shopkeeper.folder.properties.texture.label=§aTekstur (laluan)
+shopkeeper.folder.properties.glint.label=§aAktifkan kilauan
+
+# ============ SLOT HINTS ============
+shopkeeper.slot.hint=Klik untuk letak item/folder
+shopkeeper.tool.import.ready=Resipi telah disalin. Sekarang klik NPC kedai yang anda mahu tambahkannya.
+shopkeeper.tool.import.apply=Tambah urus niaga
+shopkeeper.tool.import.cancel=Batalkan import
+shopkeeper.tool.import.cancelled=Import dibatalkan.
+shopkeeper.tool.menu.add_chest=Tambah item dari peti
+shopkeeper.tool.menu.cancel_hint=Klik di sini untuk membatalkan
+shopkeeper.tool.import.prompt=Gunakan Tool pada peti, tong atau kotak shulker, kemudian klik NPC kedai. Untuk membatalkan, buka menu ini dan pilih butang yang sama sekali lagi.
+
+shopkeeper.decolayout.kind=Decoration layouts
+shopkeeper.decolayout.page=Page decoration layout
+shopkeeper.decolayout.unassign=Unassign layout
+shopkeeper.decolayout.slot=Slot (1-45)
+shopkeeper.decolayout.apply.title=Apply decoration layout
+shopkeeper.decolayout.apply.confirm=This replaces content in %s occupied slot(s). Stored trade items will be returned to you. Continue?
+shopkeeper.decolayout.conflict=Decoration covers occupied slot(s); the content underneath is preserved.
+shopkeeper.decolayout.missing=This layout was deleted. Assign another layout.
+shopkeeper.decolayout.applied=Decoration layout updated.
+shopkeeper.decolayout.name=Decoration layout name
+shopkeeper.decolayout.rename=Rename layout
+shopkeeper.decolayout.save=Save layout
+shopkeeper.decolayout.add=Add decoration
+shopkeeper.decolayout.add.hint=Empty slot - click to add a decoration
+shopkeeper.decolayout.save.entry=Save decoration
+shopkeeper.decolayout.entry.hint=Lore lines: %s · Commands: %s
+shopkeeper.decolayout.glint.on=Enabled
+shopkeeper.decolayout.glint.off=Disabled
+shopkeeper.decolayout.lore.title=Decoration lore
+shopkeeper.decolayout.commands.title=Decoration commands

@@ -1,0 +1,262 @@
+{
+  "namespace": "server_form",
+  "third_party_server_screen@common.base_screen": {
+    "type": "screen",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "$screen_content": "server_form.main_screen_content",
+    "$screen_animations": [
+      "@server_form.exit_wait"
+    ],
+    "$background_animations": [
+      "@server_form.exit_wait"
+    ],
+    "force_render_below": false,
+    "low_frequency_rendering": false,
+    "load_screen_immediately": true,
+    "render_only_when_topmost": false,
+    "render_game_behind": true,
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      }
+    ]
+  },
+  "exit_wait": {
+    "anim_type": "offset",
+    "easing": "linear",
+    "duration": 0.1,
+    "from": [
+      0,
+      0
+    ],
+    "to": [
+      0,
+      0
+    ],
+    "play_event": "screen.exit_pop",
+    "end_event": "screen.exit_end"
+  },
+  "long_form_screen@common.base_screen": {
+    "force_render_below": true,
+    "$screen_content": "server_form.long_form"
+  },
+  "long_form": {
+    "type": "panel",
+    "controls": [
+      {
+        "main_panel@common_dialogs.main_panel_no_buttons": {
+          "$title_panel": "common_dialogs.standard_title_label",
+          "$title_size": [
+            "100% - 14px",
+            10
+          ],
+          "size": [
+            225,
+            200
+          ],
+          "$text_name": "#title_text",
+          "$title_text_binding_type": "none",
+          "$child_control": "server_form.long_form_panel",
+          "layer": 2,
+          "bindings": [
+            {
+              "binding_name": "#title_text"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(((#title_text - '§c§h§e§s§t') = #title_text) and ((#title_text - '§f§u§r§n§a§c§e') = #title_text) and ((#title_text - '§t§r§a§d§e') = #title_text))",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "chest_ui@chest_ui.chest_panel": {
+          "bindings": [
+            {
+              "binding_name": "#title_text"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "((not ((#title_text - '§c§h§e§s§t') = #title_text)) and ((#title_text - '§8§1§c§h§e§s§t') = #title_text))",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "chest81_ui": {
+          "type": "panel",
+          "size": [
+            "100%",
+            "100%"
+          ],
+          "bindings": [
+            {
+              "binding_name": "#title_text",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(not ((#title_text - '§8§1§c§h§e§s§t') = #title_text))",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "panel54@chest_ui.chest_ui_template": {
+                "$grid_size": [
+                  9,
+                  6
+                ],
+                "$condition": "§8§1§c§h§e§s§t",
+                "$show_inventory": true,
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "offset": [
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "panel81": {
+                "type": "panel",
+                "size": [
+                  "100%c",
+                  "100%c"
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "offset": [
+                  186,
+                  0
+                ],
+                "$grid_size": [
+                  9,
+                  9
+                ],
+                "$condition": "§8§1§c§h§e§s§t",
+                "$show_inventory": false,
+                "bindings": [
+                  {
+                    "binding_name": "#title_text",
+                    "binding_type": "global"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(not ((#title_text - $condition) = #title_text))",
+                    "target_property_name": "#visible"
+                  }
+                ],
+                "controls": [
+                  {
+                    "background": {
+                      "type": "image",
+                      "texture": "textures/ui/dialog_background_opaque",
+                      "layer": 0,
+                      "size": [
+                        "100%c + 14px",
+                        "100%c + 11px"
+                      ],
+                      "controls": [
+                        {
+                          "container": {
+                            "type": "panel",
+                            "size": [
+                              "100%c",
+                              "100%c"
+                            ],
+                            "controls": [
+                              {
+                                "stack": {
+                                  "type": "stack_panel",
+                                  "orientation": "vertical",
+                                  "size": [
+                                    "162px",
+                                    "100%c"
+                                  ],
+                                  "controls": [
+                                    {
+                                      "gap@chest_ui.empty_panel": {
+                                        "size": [
+                                          "100%",
+                                          6
+                                        ],
+                                        "controls": [
+                                          {
+                                            "close_button@common.close_button": {
+                                              "$close_button_offset": [
+                                                5,
+                                                -3
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "text@chest_ui.chest_label": {}
+                                    },
+                                    {
+                                      "clipped_grid_panel": {
+                                        "type": "panel",
+                                        "size": [
+                                          162,
+                                          56
+                                        ],
+                                        "clips_children": true,
+                                        "controls": [
+                                          {
+                                            "grid@chest_ui.grid_items": {
+                                              "anchor_from": "top_left",
+                                              "anchor_to": "top_left",
+                                              "offset": [
+                                                0,
+                                                -108.2
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "furnace_ui@furnace_ui.furnace_panel": {
+          "ignored": "$disable_furnace_ui",
+          "bindings": [
+            {
+              "binding_name": "#title_text"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(not ((#title_text - '§f§u§r§n§a§c§e') = #title_text))",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

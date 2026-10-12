@@ -1,0 +1,10 @@
+{
+  "namespace": "chest81_ui",
+  "chest81_panel": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "100%"
+    ]
+  }
+}
